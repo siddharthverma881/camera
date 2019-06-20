@@ -6,6 +6,15 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn"
+        android:layout_centerHorizontal="true"
+        android:text="get image"
+        />
+
+    <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
